@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "com.tzeyi.projac";
+option java_multiple_files = true;
+
+message SearchHistory {
+  double x = 1;
+  double y = 2;
+  string common_name = 3;
+  string address1 = 4;
+  string minor_municipality = 5;
+  string postal_code = 6;
+  string city = 7;
+}
